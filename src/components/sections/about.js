@@ -125,7 +125,9 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
+  // list of recent skills - key is RECENT
+  const skills = ['Python', 'C++', 'React', 'TypeScript', 'Next.js'];
+  // 'TypeScript', 'React', 'Next.js', 'Eleventy', 'Node.js', 'WordPress'
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,30 +137,25 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+              Hello! I'm Albert, and I've always been driven by a passion for creation and adventure, 
+              a fascination that developed during my childhood—filled with LEGOs and online flash games. 
+              The intimacy I felt while exploring the web, playing video games, and reading novels was elevated 
+              to the next level when I built my first PC. This intimacy was something so soothing, yet building 
+              that PC fueled curiosity toward the technologies that made my experiences possible. I wondered how 
+              these pieces of metal and plastic were able to bring me the vibrancy of video games, the creativity 
+              of books, and the connectedness of friendships. I wondered if I could create for others the same joy that went into my experiences.
+
+              Not long after, in 2017-2018, I had my first profound encounter with software development through a multi-year series of courses, 
+              particularly in the space of game development. This unforgettable journey exposed me to the intricate art of designing and 
+              implementing the functionalities of a game, transforming a vision into a tangible, interactive experience. 
+              This experience served as a catalyst, inspiring me to embark on a journey of studying Computer Science in college. 
+              Today, that journey continues through my career and projects. 
+              I'm excited to keep building, learning, and innovating in the world of software development, and I hope this adventure is one that will never end.
             </p>
 
             <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
-            </p>
-
-            <p>
-              I also recently{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
-              </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
+              Here are the places I've had the privilege of working at{' '}
+              <a href="https://www.dtwc.com/">a defense contractor working with radio technologies.</a>,{' '}
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>
