@@ -5,7 +5,7 @@ module.exports = {
     {
       name: 'GitHub',
       url: 'https://github.com/cubinCheese',
-    },
+    },/*
     {
       name: 'Instagram',
       url: '',
@@ -13,15 +13,16 @@ module.exports = {
     {
       name: 'Twitter',
       url: '',
-    },
+    },*/
     {
       name: 'Linkedin',
       url: 'https://www.linkedin.com/in/albertlin-linked/',
     },
+    /*
     {
       name: 'Codepen',
       url: '',
-    },
+    },*/
   ],
 
   navLinks: [
