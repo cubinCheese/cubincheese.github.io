@@ -242,6 +242,30 @@ ArchivePage.propTypes = {
 
 export default ArchivePage;
 
+// disables ios,andriod,company buttons/button-icons
+export const pageQuery = graphql`
+  {
+    allMarkdownRemark(
+      filter: { fileAbsolutePath: { regex: "/content/projects/" } }
+      sort: { fields: [frontmatter___date], order: DESC }
+    ) {
+      edges {
+        node {
+          frontmatter {
+            date
+            title
+            tech
+            github
+            external
+          }
+          html
+        }
+      }
+    }
+  }
+`;
+
+/* // this enables ios/playstore/etc buttons
 export const pageQuery = graphql`
   {
     allMarkdownRemark(
@@ -266,3 +290,4 @@ export const pageQuery = graphql`
     }
   }
 `;
+*/
