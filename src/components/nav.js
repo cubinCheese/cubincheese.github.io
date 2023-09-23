@@ -229,7 +229,7 @@ const Nav = ({ isHome }) => {
                     </li>
                   ))}
               </ol>
-              <div>{ResumeLink}</div>
+              {false && (<div>{ResumeLink}</div>)}
             </StyledLinks>
 
             <Menu />
