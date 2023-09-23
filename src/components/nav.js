@@ -204,12 +204,14 @@ const Nav = ({ isHome }) => {
       )}
     </div>
   );
-
+  
+  /* // Disabled Resume button and pdf.
   const ResumeLink = (
     <a className="resume-button" href="/resume.pdf" target="_blank" rel="noopener noreferrer">
       Resume
     </a>
   );
+  */
 
   return (
     <StyledHeader scrollDirection={scrollDirection} scrolledToTop={scrolledToTop}>
@@ -256,7 +258,7 @@ const Nav = ({ isHome }) => {
                     ))}
                 </TransitionGroup>
               </ol>
-
+              {false && (
               <TransitionGroup component={null}>
                 {isMounted && (
                   <CSSTransition classNames={fadeDownClass} timeout={timeout}>
@@ -265,7 +267,7 @@ const Nav = ({ isHome }) => {
                     </div>
                   </CSSTransition>
                 )}
-              </TransitionGroup>
+              </TransitionGroup> )}
             </StyledLinks>
 
             <TransitionGroup component={null}>
