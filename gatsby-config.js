@@ -3,9 +3,8 @@ const config = require('./src/config');
 module.exports = {
   siteMetadata: {
     title: 'Albert Lin',
-    description:
-      'Albert Lin is a software developer that enjoys exploring new projects.',
-    siteUrl: 'https://github.com/cubinCheese', // No trailing slash allowed!
+    description: 'Albert Lin is a software developer that enjoys exploring new projects.',
+    siteUrl: 'https://cubincheese.github.io/portfolio', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '',
   },
