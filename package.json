@@ -1,12 +1,9 @@
 {
   "name": "v4",
+  "homepage": "http://cubincheese.github.io",
   "description": "Personal Website V4",
   "version": "1.0.0",
-  "author": "Albert Lin <linalb520@gmail.com>",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/cubinCheese"
-  },
+  "author": "Adithya Krishna <linalb520[at]gmail[dot]com>",
   "keywords": [
     "gatsby"
   ],
@@ -19,9 +16,10 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
+    "predeploy": "npm run build",
+    "deploy": "gatsby build && gh-pages -b master -d public -m 'GitHub Pages Auto Deploy' -u 'cubinCheese <93562548+cubinCheese@users.noreply.github.com>'",
     "prepare": "husky install",
-    "lint-staged": "lint-staged",
-    "deploy": "gatsby build && gh-pages -d public -b master"
+    "lint-staged": "lint-staged"
   },
   "lint-staged": {
     "*.{js,css,json,md}": [
