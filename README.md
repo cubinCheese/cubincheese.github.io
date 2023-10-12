@@ -1,8 +1,8 @@
 <div align="center">
-  <img alt="Logo" src="https://raw.githubusercontent.com/bchiang7/v4/main/src/images/logo.png" width="100" />
+  <img alt="Logo" src="https://raw.githubusercontent.com/cubinCheese/v4/main/src/images/logo.png" width="100" />
 </div>
 <h1 align="center">
-  brittanychiang.com - v4
+  cubinCheese.github.io
 </h1>
 <p align="center">
   <a href="https://cubincheese.github.io/" target="_blank">cubincheese.github.io</a> was built via <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted with <a href="https://pages.github.com/" target="_blank">Github-Pages</a>
