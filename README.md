@@ -9,8 +9,7 @@
 </p>
 <p align="center">
   References to Src:
-  <a href="https://github.com/bchiang7/v4" target="_blank">Original Source</a>,
-  <a href="https://github.com/adithyaakrishna/adithyaakrishna.github.io" target="_blank">Secondary-user Version</a>
+  <a href="https://github.com/cubinCheese/cubincheese.github.io" target="_blank">Original Source</a>,
 </p>
 
 ## 🛠 Installation & Set Up

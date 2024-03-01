@@ -81,8 +81,8 @@ const StyledPic = styled.div`
     .img {
       position: relative;
       border-radius: var(--border-radius);
-      mix-blend-mode: multiply;
-      filter: grayscale(100%) contrast(1);
+      mix-blend-mode: normal;
+      filter: none;
       transition: var(--transition);
     }
 
@@ -137,25 +137,33 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! I'm Albert, and I've always been driven by a passion for creation and adventure, 
-              a fascination that developed during my childhood—filled with LEGOs and online flash games. 
-              The intimacy I felt while exploring the web, playing video games, and reading novels was elevated 
-              to the next level when I built my first PC. This intimacy was something so soothing, yet building 
-              that PC fueled curiosity toward the technologies that made my experiences possible. I wondered how 
-              these pieces of metal and plastic were able to bring me the vibrancy of video games, the creativity 
-              of books, and the connectedness of friendships. I wondered if I could create for others the same joy that went into my experiences.
-
-              Not long after, in 2017-2018, I had my first profound encounter with software development through a multi-year series of courses, 
-              particularly in the space of game development. This unforgettable journey exposed me to the intricate art of designing and 
-              implementing the functionalities of a game, transforming a vision into a tangible, interactive experience. 
-              This experience served as a catalyst, inspiring me to embark on a journey of studying Computer Science in college. 
-              Today, that journey continues through my career and projects. 
-              I'm excited to keep building, learning, and innovating in the world of software development, and I hope this adventure is one that will never end.
+              Hello! I'm Albert, and I've always been driven by a passion for creation and
+              adventure, a fascination that developed during my childhood—filled with LEGOs and
+              online flash games. The intimacy I felt while exploring the web, playing video games,
+              and reading novels was elevated to the next level when I built my first PC. This
+              intimacy was something so soothing, yet building that PC fueled curiosity toward the
+              technologies that made my experiences possible. I wondered how these pieces of metal
+              and plastic were able to bring me the vibrancy of video games, the creativity of
+              books, and the connectedness of friendships. I wondered if I could create for others
+              the same joy that went into my experiences.
+            </p>
+            <p>
+              Not long after, in 2017-2018, I had my first profound encounter with software
+              development through a multi-year series of courses, particularly in the space of game
+              development. This unforgettable journey exposed me to the intricate art of designing
+              and implementing the functionalities of a game, transforming a vision into a tangible,
+              interactive experience. This experience served as a catalyst, inspiring me to embark
+              on a journey of studying Computer Science in college. Today, that journey continues
+              through my career and projects. I'm excited to keep building, learning, and innovating
+              in the world of software development, and I hope this adventure is one that will never
+              end.
             </p>
 
             <p>
               Here are the places I've had the privilege of working at{' '}
-              <a href="https://www.dtwc.com/">a defense contractor working with radio technologies.</a>,{' '}
+              <a href="https://www.dtwc.com/">
+                a defense contractor working with radio technologies.
+              </a>{' '}
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>

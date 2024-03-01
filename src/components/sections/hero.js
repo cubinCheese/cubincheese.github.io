@@ -37,7 +37,6 @@ const StyledHeroSection = styled.section`
 
   p {
     margin: 20px 0 0;
-    max-width: 540px;
   }
 
   .email-link {
@@ -65,19 +64,17 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        Hello! I'm a recent graduate from UCSD with a passion for crafting elegant and efficient software solutions. 
-        Armed with a solid foundation in computer science and a hunger for continuous learning, I'm dedicated to pushing the boundaries of technology to create impactful and user-friendly applications. 
-        Whether it's front-end development, back-end systems, or anything in between, I thrive on solving complex problems and turning ideas into reality
-        .
+        Hello! I'm a recent graduate from UCSD with a passion for crafting elegant and efficient
+        software solutions. Armed with a solid foundation in computer science and a hunger for
+        continuous learning, I'm dedicated to pushing the boundaries of technology to create
+        impactful and user-friendly applications. Whether it's front-end development, back-end
+        systems, or anything in between, I thrive on solving complex problems and turning ideas into
+        reality .
       </p>
     </>
   );
   const five = (
-    <a
-      className="email-link"
-      href="mailto:linalb520@gmail.com"
-      target="_blank"
-      rel="noreferrer">
+    <a className="email-link" href="mailto:linalb520@gmail.com" target="_blank" rel="noreferrer">
       Get in touch.
     </a>
   );
