@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://cubincheese.github.io/sitemap.xml
+Sitemap: https://cubincheese.github.io/sitemap-index.xml
 Host: https://cubincheese.github.io
