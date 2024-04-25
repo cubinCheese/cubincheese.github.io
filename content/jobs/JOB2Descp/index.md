@@ -3,7 +3,7 @@ date: '2023-07-01'
 title: 'Software Engineer'
 company: 'Isabella Ku Insurance Agency'
 location: 'San Francisco, CA'
-range: 'July 2023 - Feb 2024'
+range: 'Sept 2022 - Feb 2024'
 url: ''
 ---
 
