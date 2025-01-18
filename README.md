@@ -26,6 +26,10 @@
    nvm install
    ```
 
+   ```sh
+   nvm use 14.16.0
+   ```
+
 3. Install dependencies
 
    ```sh

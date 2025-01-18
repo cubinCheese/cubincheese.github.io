@@ -1,10 +1,10 @@
 ---
-date: '2023-07-01'
+date: '2023-06-01'
 title: 'Software Engineer'
 company: 'Isabella Ku Insurance Agency'
 location: 'San Francisco, CA'
-range: 'Sept 2022 - Feb 2024'
-url: ''
+range: 'June 2023'
+url: 'https://www.isabellaku.com/'
 ---
 
 - Implemented version control system to optimize data entry traffic at scale.
